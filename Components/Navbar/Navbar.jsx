@@ -1,23 +1,19 @@
 import React from "react";
 import Button from "../Button/Button";
+import Navbarlink from "../Links/Navbarlink";
 
 const Navbar = () => {
   return (
-    <nav className="flex justify-around items-center p-6">
-         
-      <div className="flex cursor-pointer">
-      <h1 className="text-xl ">HS</h1>
-        
-        <h1 className="text-3xl text-primary">DEV</h1>
-      </div>
+    <nav className="flex justify-around items-center p-3 fixed bg-secondary w-[100%] outline-none  ">
+      <a href="#home" className="flex cursor-pointer">
+        <h1 className="text-xl font-extralight">HR</h1>
+        <h1 className="text-3xl font-normal text-primary">DEV</h1>
+      </a>
       <div className="">
-        <ul className="flex  gap-5 cursor-pointer relative " >
-          <a href="#about" className="text-xl font-semibold hover:text-white hover:font-bold  transition ease-in-out duration-300 hover:-translate-y-1 hover:scale-110">About </a>
-          <a href="#Services" className="text-xl font-semibold hover:text-white hover:font-bold  transition ease-in-out duration-300 hover:-translate-y-1 hover:scale-110">Services</a>
-          <a href="#Portfolio" className="text-xl font-semibold hover:text-white hover:font-bold  transition ease-in-out duration-300 hover:-translate-y-1 hover:scale-110">Portfolio</a>
-        </ul>
+       <Navbarlink/>
       </div>
-      <Button text={"Let's Talk"}/>
+      <a href="#contact"> <Button text={"Contact"} /></a>
+     
     </nav>
   );
 };
