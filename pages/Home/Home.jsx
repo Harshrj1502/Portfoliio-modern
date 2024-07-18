@@ -47,7 +47,7 @@ const Home = () => {
         </div>
         <div className="w-[50vw] flex ">
           <img
-            src="/src/assets/person.svg"
+            src="assets/person.svg"
             alt="photo"
             className="photo"
           />
