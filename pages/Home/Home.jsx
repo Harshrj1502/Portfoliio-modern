@@ -47,7 +47,7 @@ const Home = () => {
         </div>
         <div className="w-[50vw] flex ">
           <img
-            src="./src/assets/WhatsApp_Image_2024-05-25_at_15.51.09-removebg-preview-2.png"
+            src="./src/assets/WhatsApp_Image_2024-05-25_at_15.51.09-removebg-preview-2.svg"
             alt="photo"
             className="photo"
           />
