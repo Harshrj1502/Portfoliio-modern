@@ -15,7 +15,7 @@ const Footer = () => {
           className="flex cursor-pointer"
         >
           <div className="flex">
-            <h1 className="text-2xl font-extralight">HR</h1>
+            <h1 className="text-2xl font-extralight">HX</h1>
             <h1 className="text-5xl text-primary">DEV</h1>
           </div>
         </Link>

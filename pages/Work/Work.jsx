@@ -14,11 +14,11 @@ const Work = () => {
       </div>
       <div className="flex justify-around px-5 py-10 ">
         <Projectcard title={"Porfolio Website"}
-        content={"Web Design / Usability Testing"} link={""} imglink={""}/>
-        <Projectcard title={"Porfolio Website"}
-        content={"Web Design / Usability Testing"} link={""} imglink={""}/>
-        <Projectcard title={"Porfolio Website"}
-        content={"Web Design / Usability Testing"} link={""} imglink={""}/>
+        content={"Portfolio Website"} link={""} imglink={""}/>
+        <Projectcard title={"Ecommerce Website"}
+        content={"Ecommerce Website"} link={""} imglink={""}/>
+        <Projectcard title={"To-Do App"}
+        content={"To-Do App"} link={""} imglink={""}/>
       </div>
     </section>
   );

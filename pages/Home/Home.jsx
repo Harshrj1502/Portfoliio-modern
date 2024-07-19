@@ -24,9 +24,9 @@ const Home = () => {
       <main className="flex">
         <div className="w-[50vw] flex justify-center flex-col px-20 gap-5">
           <div className="container flex flex-col gap-5">
-            <h1 className="font-light text-xl">Web Developer</h1>
-            <p className="text-5xl font-bold">Hi There, I'm </p>
-            <p className="text-5xl font-bold text-primary">Harsh Raj </p>
+            <h1 className="font-light text-xl">Web and App Developer</h1>
+            <p className="text-5xl font-bold">Hello,I'm</p>
+            <p className="text-5xl font-bold text-primary">Harsh Raj</p>
             <p className="text-base font-light">
               Welcome to my portfolio of captivating digital experiences.
               Explore my work and let's create something extraordinary together.

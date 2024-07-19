@@ -13,7 +13,7 @@ const Navbar = () => {
         duration={800}
         className="flex cursor-pointer"
       >
-        <h1 className="text-xl font-extralight">HR</h1>
+        <h1 className="text-xl font-extralight">HX</h1>
         <h1 className="text-3xl font-normal text-primary">DEV</h1>
       </Link>
       <div className="flex  gap-5 cursor-pointer  ">
