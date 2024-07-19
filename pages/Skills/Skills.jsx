@@ -12,7 +12,7 @@ import { SiMongodb } from "react-icons/si";
 import { FaGithub } from "react-icons/fa";
 const Skills = () => {
   return (
-    <div id="skills" className="px-5 py-10 bg-secondary">
+    <div id="skills" className="px-5 py-8 bg-white outline-none">
       <h1 className="text-4xl font-light text-center px-5 py-10">Core Skills</h1>
       <div className="flex justify-around px-5 py-10">
         <FaHtml5 size={80} className=" "/>

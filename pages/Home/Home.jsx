@@ -32,7 +32,7 @@ const Home = () => {
               Explore my work and let's create something extraordinary together.
             </p>
           </div>
-          <div className="flex gap-5">
+          <div className="flex">
             {/* <Button text={"About Me "} /> */}
             <Link
               activeClass="active"
