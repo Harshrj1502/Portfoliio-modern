@@ -6,13 +6,16 @@ import Skills from "../Components/Skills/Skills";
 import Bottomlink from "../Components/Footer/Bottomlink";
 import Footer from "../Components/Footer/Footer";
 import "animate.css/animate.min.css";
+import FadeInUp from "../Components/Fadeinup";
 const About = () => {
   return (
+   
       <section className="bg-primary outline-none w-[100vw] ">
         <Navbar />
+        <FadeInUp>
         <div className=" flex flex-col gap-5 text-center  ">
           <div className="flex flex-col gap-5  ">
-            <p className="text-7xl font-bold h-[60vh] justify-center items-center flex animate__animated animate__fadeInUp animate__slow  ">
+            <p className="text-7xl font-bold h-[80vh] justify-center items-center flex   ">
               Hey 👋🏼 I'm Harsh{" "}
             </p>
             <h1 className="font-light text-xl ">Web and App Developer</h1>
@@ -40,7 +43,9 @@ const About = () => {
         <Skills />
         <Footer />
         <Bottomlink />
+        </FadeInUp>
       </section>
+      
    
   );
 };
