@@ -4,12 +4,21 @@ import Textcard from "../Components/Projectcard/Textcard";
 import { Link } from "react-router-dom";
 import Linksprofile from "../Components/Links/Linksprofile";
 import Skills from "../Components/Skills/Skills";
-
+import Bottomlink from "../Components/Footer/Bottomlink";
+import Footer from "../Components/Footer/Footer";
+import { motion } from "framer-motion";
+import ScrollAnimation from "react-animate-on-scroll";
+import "animate.css/animate.min.css";
 const About = () => {
   return (
-    <div className="bg-primary outline-none" id="home">
-      <Navbar />
-      <main className="">
+    <motion.div
+      initial={{ opacity: 0 }}
+      animate={{ opacity: 1 }}
+      transition={{ duration: 3 }}
+      className="container"
+    >
+      <section className="bg-primary outline-none w-[100vw]" id="home">
+        <Navbar />
         <div className=" flex flex-col gap-5 text-center  ">
           <div className="flex flex-col gap-5">
             <p className="text-7xl font-bold h-[70vh] justify-center items-center flex">
@@ -20,8 +29,8 @@ const About = () => {
               Welcome to my portfolio of captivating digital experiences.
               Explore my work and let's create something extraordinary together.
             </p>
-          </div>
-          <div className="py-40 flex flex-col gap-5">
+          </div>    
+          <div className="py-40 flex flex-col gap-5 ">
             <div className="flex justify-center items-center">
               <Textcard text={"About"} />
             </div>
@@ -35,23 +44,13 @@ const About = () => {
                 scalable and efficient web applications.
               </p>
             </div>
-          </div>
+          </div>  
         </div>
         <Skills />
-        <div className="h-[35vw] flex flex-col justify-center items-center ">
-          <p className="text-4xl font-normal text-center">
-            Let's work together.
-          </p>
-          <p className="text-4xl font-normal text-center text-grey">
-            Get in touch.
-          </p>
-        </div>
-        <div className="flex justify-between items-center p-10  w-[100vw]">
-          <h1 className="text-sm">©Harsh 2024</h1>
-          <Linksprofile />
-        </div>
-      </main>
-    </div>
+        <Footer />
+        <Bottomlink />
+      </section>
+    </motion.div>
   );
 };
 

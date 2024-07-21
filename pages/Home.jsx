@@ -3,8 +3,17 @@ import Projectcard from "../Components/Projectcard/Projectcard";
 import Textcard from "../Components/Projectcard/Textcard";
 import Navbar from "../Components/Navbar/Navbar";
 import Linksprofile from "../Components/Links/Linksprofile";
+import Footer from "../Components/Footer/Footer";
+import Bottomlink from "../Components/Footer/Bottomlink";
+import { motion } from "framer-motion";
 const Work = () => {
   return (
+    <motion.div
+      initial={{ opacity: 0 }}
+      animate={{ opacity: 1 }}
+      transition={{ duration: 3 }}
+      className="container"
+    >
     <section className="outline-none grid h-[100vh] bg-primary ">
       <Navbar />
       <div className="h-[90vh] flex flex-col justify-center items-center gap-7 ">
@@ -30,15 +39,10 @@ const Work = () => {
         <Projectcard />
         <Projectcard />
       </div>
-      <div className="flex flex-col items-center justify-center h-[35vw]">
-        <p className="text-4xl font-normal">Let's work together.</p>
-        <p className="text-4xl font-normal text-grey">Get in touch.</p>
-      </div>
-      <div className="flex justify-between items-center p-10  w-[100vw]">
-        <h1 className="text-sm">©Harsh 2024</h1>
-        <Linksprofile />
-      </div>
+      <Footer/>
+      <Bottomlink/>
     </section>
+    </motion.div>
   );
 };
 

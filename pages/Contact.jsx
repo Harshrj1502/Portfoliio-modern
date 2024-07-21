@@ -1,8 +1,15 @@
 import React from "react";
 import Links from "../Components/Links/Linksprofile";
 import Navbar from "../Components/Navbar/Navbar";
+import { motion } from "framer-motion";
 const Contact = () => {
   return (
+    <motion.div
+      initial={{ opacity: 0 }}
+      animate={{ opacity: 1 }}
+      transition={{ duration: 3 }}
+      className="container"
+    >
     <section id="contact" className="bg-primary w-screen h-screen outline-none">
         <div className="flex flex-col items-center justify-center h-screen">         
           <Navbar/>
@@ -18,6 +25,7 @@ const Contact = () => {
             <Links/>
         </div>
     </section>
+    </motion.div>
   );
 };
 
