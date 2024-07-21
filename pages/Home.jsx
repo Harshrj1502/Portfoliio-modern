@@ -11,7 +11,7 @@ const Work = () => {
     <section className="outline-none h-[100vh] bg-primary w-[100vw]">
       <Navbar />
       <FadeInUp>
-        <div className="h-[90vh] flex flex-col justify-center items-center gap-7">
+        <div className="h-[90vh] flex flex-col justify-center items-center gap-7 w-[100vw] ">
           <p className="text-7xl font-normal text-center ">
             Let's craft exceptional digital experiences together.
           </p>
