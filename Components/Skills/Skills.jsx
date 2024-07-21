@@ -15,7 +15,7 @@ const Skills = () => {
   return (
     <section id="skills" className="bg-white outline-none flex flex-col justify-center items-center py-10 w-[100vw]">
       <Textcard text={"Skills"}/>
-      <div className="grid grid-cols-4 gap-10 p-10 m-auto w-[100vw] ">
+      <div className="grid grid-cols-4 gap-10 p-10 w-[100vw]">
         <FaHtml5 size={70} className="  "/>
         <IoLogoCss3 size={70} className="" />
         <IoLogoJavascript size={70} className="" />
