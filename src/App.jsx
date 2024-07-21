@@ -3,17 +3,18 @@ import Home from "../pages/Home";
 import Contact from "../pages/Contact";
 import About from "../pages/About";
 import { motion } from "framer-motion";
-import { BrowserRouter, Routes, Route } from "react-router-dom";
+import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 const App = () => {
   return (
     <div className="">
-      <BrowserRouter>
+      <Router>
         <Routes >
-          <Route path="/"  element={<Home/>}>hello</Route>
-          <Route path="/contact"  element={<Contact/>}>hello</Route>
-          <Route path="/about" element={<About/>}>hello</Route>
+          <Route exact path="/"  element={<Home/>}/>
+          <Route path="/contact"  element={<Contact/>}/>
+          <Route path="/about" element={<About/>}/>
         </Routes>
-      </BrowserRouter>
+        </Router>
+      
     </div>
   );
 };

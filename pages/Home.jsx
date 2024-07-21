@@ -6,6 +6,7 @@ import Linksprofile from "../Components/Links/Linksprofile";
 import Footer from "../Components/Footer/Footer";
 import Bottomlink from "../Components/Footer/Bottomlink";
 import { motion } from "framer-motion";
+import { Outlet } from "react-router-dom";
 const Work = () => {
   return (
     <motion.div
@@ -43,6 +44,7 @@ const Work = () => {
       <Bottomlink/>
     </section>
     </motion.div>
+   
   );
 };
 
