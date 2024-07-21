@@ -1,23 +1,23 @@
-import React from 'react'
-import Home from '../pages/Home/Home'
-import About from '../pages/About/About'
-import Services from '../pages/Services/Services'
-import Footer from '../pages/Footer/Footer'
-import Getintouch from '../pages/Getintouch/Getintouch'
-import Skills from '../pages/Skills/Skills'
-import Work from '../pages/Work/Work'
+import React from "react";
+import Home from "../pages/Home";
+import { motion } from "framer-motion";
+import Navbar from "../Components/Navbar/Navbar";
+import { BrowserRouter, Routes, Route } from "react-router-dom";
+import Contact from "../pages/Contact";
+import About from "../pages/About";
+
 const App = () => {
   return (
-    <div className=''>
-      <Home/>
-      <About/>
-      <Services/>
-      <Skills/>
-      <Work/>
-      <Getintouch/>
-      <Footer/>     
+    <div className="">
+      <BrowserRouter>
+        <Routes >
+          <Route path="/"  element={<Home/>}>hello</Route>
+          <Route path="/contact"  element={<Contact/>}>hello</Route>
+          <Route path="/about" element={<About/>}>hello</Route>
+        </Routes>
+      </BrowserRouter>
     </div>
-  )
-}
+  );
+};
 
-export default App
+export default App;

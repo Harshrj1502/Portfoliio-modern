@@ -14,9 +14,18 @@
         margin: 0;
     }
 }
-@layer components{
-    .photo{
-        @apply h-[550px]
+@layer utilities{
+    .navbar{
+        @apply text-sm font-normal  py-3 px-4 items-center m-1
+        
     }
-    
+    .navbar-clicked{
+        @apply text-sm font-normal bg-primary rounded-full py-3  px-4 m-1 items-center
+    }
+    .helloo{
+        @apply flex flex-col gap-2   bg-no-repeat cursor-pointer h-[55vh] w-[45vw] bg-slate-500 rounded-3xl outline-none
+    }
+    .hello{
+        @apply flex flex-col gap-2  bg-no-repeat  border-black h-[55vh] w-[45vw] bg-slate-500 rounded-3xl outline-none 
+    }
 }

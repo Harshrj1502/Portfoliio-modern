@@ -9,12 +9,9 @@ export default {
   theme: {
     extend: {
       colors:{
-        primary:"#FC3313",
-        secondary:"#FFD4D0",
-        black:"#191A1B",
-        darkgrey:"#8D8D8D",
-        mediumgrey:"#E1E1E1",
-        grey:"#F7F7F7"
+        primary:"#FFFFFF",
+        secondary:"#F3F2F1",
+        grey:"#7F7F7F"
       }
     },
   },
