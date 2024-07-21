@@ -17,7 +17,7 @@ const About = () => {
       transition={{ duration: 3 }}
       className="container"
     >
-      <section className="bg-primary outline-none w-[100vw]" id="home">
+      <section className="bg-primary outline-none w-[100vw]">
         <Navbar />
         <div className=" flex flex-col gap-5 text-center  ">
           <div className="flex flex-col gap-5">
