@@ -32,7 +32,7 @@ const Work = () => {
           <Textcard text={"App Dev"} />
         </div>
       </div>
-      <div className="grid grid-cols-2 mx-auto gap-5">
+      <div className="grid grid-cols-2 mx-auto gap-4">
         <Projectcard />
         <Projectcard />
         <Projectcard />
