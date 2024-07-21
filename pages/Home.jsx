@@ -12,7 +12,7 @@ const Work = () => {
     <section className="outline-none grid h-[100vh] bg-primary w-[100vw]  ">
       <Navbar />
       <FadeInUp>
-      <div className="h-[90vh] flex flex-col justify-center items-center gap-7  w-[100vw] ">
+      <div className="h-[90vh] flex flex-col justify-center items-center gap-7 w-[100vw] my-5 ">
         <p className="text-7xl font-normal text-center w-[100%]">
           Let's craft exceptional digital experiences together.
         </p>
@@ -28,7 +28,6 @@ const Work = () => {
         </div>
       </div>
       </FadeInUp>
-     
       <div className="grid grid-cols-2 mx-auto gap-4">
         <Projectcard />
         <Projectcard />
