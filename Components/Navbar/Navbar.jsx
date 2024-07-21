@@ -3,7 +3,7 @@ import { Outlet, Link } from "react-router-dom";
 const Navbar = () => {
   const [navbarclass, setNavbarclass] = useState("navbar");
   return (
-    <nav className="flex justify-center items-center">
+    <nav className="flex justify-center items-center ">
       <div className="flex outline-none rounded-full bg-secondary w-fit fixed top-10">
         <ul className="flex gap-1 cursor-pointer ">
           <Link to={"/"} className={navbarclass}>

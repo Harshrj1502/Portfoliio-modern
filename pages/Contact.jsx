@@ -1,22 +1,17 @@
 import React from "react";
 import Links from "../Components/Links/Linksprofile";
 import Navbar from "../Components/Navbar/Navbar";
-import { motion } from "framer-motion";
+import "animate.css/animate.min.css";
 const Contact = () => {
   return (
-    <motion.div
-      initial={{ opacity: 0 }}
-      animate={{ opacity: 1 }}
-      transition={{ duration: 3 }}
-      className="container"
-    >
-    <section id="contact" className="bg-primary w-screen h-screen outline-none">
-        <div className="flex flex-col items-center justify-center h-screen">         
-          <Navbar/>
-        <p className="text-7xl font-normal text-center">
+    
+    <section id="contact" className="bg-primary w-screen h-screen outline-none ">
+      <Navbar/>
+        <div className="flex flex-col items-center justify-center h-screen ">         
+        <p className="text-7xl font-normal text-center animate__animated animate__fadeInUp animate__slow  ">
         Let's work together.
         </p>
-        <p className="text-7xl font-normal text-grey text-center">
+        <p className="text-7xl font-normal text-grey text-center animate__animated animate__fadeInUp animate__slow  ">
         Get in touch.
         </p>
         </div>
@@ -25,7 +20,7 @@ const Contact = () => {
             <Links/>
         </div>
     </section>
-    </motion.div>
+   
   );
 };
 

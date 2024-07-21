@@ -5,23 +5,16 @@ import Navbar from "../Components/Navbar/Navbar";
 import Linksprofile from "../Components/Links/Linksprofile";
 import Footer from "../Components/Footer/Footer";
 import Bottomlink from "../Components/Footer/Bottomlink";
-import { motion } from "framer-motion";
-import { Outlet } from "react-router-dom";
+import "animate.css/animate.min.css";
 const Work = () => {
   return (
-    <motion.div
-      initial={{ opacity: 0 }}
-      animate={{ opacity: 1 }}
-      transition={{ duration: 3 }}
-      className="container"
-    >
-    <section className="outline-none grid h-[100vh] bg-primary w-[100vw]">
+    <section className="outline-none grid h-[100vh] bg-primary w-[100vw]  ">
       <Navbar />
       <div className="h-[90vh] flex flex-col justify-center items-center gap-7 ">
-        <p className="text-7xl font-normal text-center ">
+        <p className="text-7xl font-normal text-center animate__animated animate__fadeInUp animate__slow   ">
           Let's craft exceptional digital experiences together.
         </p>
-        <p className="text-2xl font-normal text-center text-grey">
+        <p className="text-2xl font-normal text-center text-grey animate__animated animate__fadeInUp animate__slow  ">
           Explore my design services, from user interface and experience to
           prototyping and testing.
         </p>
@@ -43,8 +36,7 @@ const Work = () => {
       <Footer/>
       <Bottomlink/>
     </section>
-    </motion.div>
-   
+ 
   );
 };
 
