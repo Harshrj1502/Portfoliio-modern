@@ -12,10 +12,10 @@ const About = () => {
         <Navbar />
         <div className=" flex flex-col gap-5 text-center  ">
           <div className="flex flex-col gap-5  ">
-            <p className="text-7xl font-bold h-[70vh] justify-center items-center flex animate__animated animate__fadeInUp animate__slow  ">
+            <p className="text-7xl font-bold h-[60vh] justify-center items-center flex animate__animated animate__fadeInUp animate__slow  ">
               Hey 👋🏼 I'm Harsh{" "}
             </p>
-            <h1 className="font-light text-xl animate__animated animate__fadeInUp animate__slow  ">Web and App Developer</h1>
+            <h1 className="font-light text-xl ">Web and App Developer</h1>
             <p className="text-base font-light  ">
               Welcome to my portfolio of captivating digital experiences.
               Explore my work and let's create something extraordinary together.
