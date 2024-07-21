@@ -8,12 +8,11 @@ import "animate.css/animate.min.css";
 import FadeInUp from "../Components/Fadeinup";
 const Work = () => {
   return (
-    
-    <section className="outline-none grid h-[100vh] bg-primary w-[100vw]  ">
+    <section className="outline-none h-[100vh] bg-primary w-[100vw]  ">
       <Navbar />
       <FadeInUp>
       <div className="h-[90vh] flex flex-col justify-center items-center gap-7 w-[100vw]">
-        <p className="text-7xl font-normal text-center w-[100vw]">
+        <p className="text-7xl font-normal text-center ">
           Let's craft exceptional digital experiences together.
         </p>
         <p className="text-2xl font-normal text-center text-grey w-[100vw]  ">
@@ -27,8 +26,7 @@ const Work = () => {
           <Textcard text={"App Dev"} />
         </div>
       </div>
-      </FadeInUp>
-      <div className="grid grid-cols-2 mx-auto gap-4">
+      <div className="grid grid-cols-2 gap-10 place-items-center">
         <Projectcard />
         <Projectcard />
         <Projectcard />
@@ -36,13 +34,10 @@ const Work = () => {
         <Projectcard />
         <Projectcard />
       </div>
-      
+      </FadeInUp>
       <Footer/>
       <Bottomlink/>
-     
     </section>
-   
- 
   );
 };
 

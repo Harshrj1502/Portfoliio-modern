@@ -15,7 +15,7 @@ const About = () => {
         <FadeInUp>
         <div className=" flex flex-col gap-5 text-center  ">
           <div className="flex flex-col gap-5  ">
-            <p className="text-7xl font-bold h-[80vh] justify-center items-center flex   ">
+            <p className="text-7xl font-bold h-[85vh] justify-center items-center flex   ">
               Hey 👋🏼 I'm Harsh{" "}
             </p>
             <h1 className="font-light text-xl ">Web and App Developer</h1>

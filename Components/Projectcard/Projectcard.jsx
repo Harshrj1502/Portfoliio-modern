@@ -1,21 +1,22 @@
 import { React, useState } from "react";
 import { BsArrowUpRightCircleFill } from "react-icons/bs";
 const Projectcard = () => {
-  const [xyz, setXyz] = useState("hello");
+  const [cardclass, setCardclass] = useState("card-class");
   const [isHovered, setIsHovered] = useState(false);
   return (
     <section
-      className={xyz}
+    className={cardclass}
       onMouseEnter={() => {
-        setXyz("helloo");
+        setCardclass("cardclass-hover");
         setIsHovered(true)
       }}
       onMouseLeave={() => {
-        setXyz("helloo");
+        setCardclass("card-class");
         setIsHovered(false)
       }}
     >
-        {isHovered && <div className="text-base font-normal text-white flex justify-between p-7 ">Arial <BsArrowUpRightCircleFill  size={45} className="bg-black rounded-full text-white"/></div>}
+       {isHovered && <div className="text-base font-normal text-white flex justify-between p-7  ">Arial <BsArrowUpRightCircleFill  size={45} className="bg-black rounded-full text-white"/>
+       </div>}
     </section>
   );
 };
