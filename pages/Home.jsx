@@ -14,7 +14,7 @@ const Work = () => {
       transition={{ duration: 3 }}
       className="container"
     >
-    <section className="outline-none grid h-[100vh] bg-primary ">
+    <section className="outline-none grid h-[100vh] bg-primary w-[100vw]">
       <Navbar />
       <div className="h-[90vh] flex flex-col justify-center items-center gap-7 ">
         <p className="text-7xl font-normal text-center ">
