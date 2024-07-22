@@ -21,10 +21,10 @@
     @apply text-sm font-normal bg-primary rounded-full py-3  px-4 m-1 items-center;
   }
   .cardclass-hover {
-    @apply h-[55vh] w-[45vw] bg-slate-500 rounded-3xl outline-none  cursor-pointer;
+    @apply h-[55vh] w-[45vw] bg-slate-500 rounded-3xl outline-none  cursor-pointer 
   }
   .card-class {
-    @apply h-[55vh] w-[45vw] bg-slate-500 rounded-3xl outline-none;
+    @apply h-[55vh] w-[45vw] bg-slate-500 rounded-3xl outline-none
   }
 }
 @layer components {

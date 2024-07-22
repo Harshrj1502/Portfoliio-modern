@@ -15,10 +15,10 @@ const About = () => {
         <FadeInUp>
         <div className=" flex flex-col gap-5 text-center  ">
           <div className="flex flex-col gap-5  ">
-            <p className="text-7xl font-bold h-[85vh] justify-center items-center flex   ">
+            <p className="text-7xl font-bold h-[85vh] justify-center items-center flex  max-lg:text-6xl max-sm:text-5xl  ">
               Hey 👋🏼 I'm Harsh{" "}
             </p>
-            <h1 className="font-light text-xl ">Web and App Developer</h1>
+            <h1 className="font-light text-xl  ">Web and App Developer</h1>
             <p className="text-base font-light  ">
               Welcome to my portfolio of captivating digital experiences.
               Explore my work and let's create something extraordinary together.
@@ -29,11 +29,11 @@ const About = () => {
               <Textcard text={"About"} />
             </div>
             <div className="flex flex-col gap-2">
-              <p className="text-4xl font-normal text-cente w-[50vw] mx-auto">
+              <p className="text-4xl font-normal text-cente w-[50vw] mx-auto max-sm:text-2xl max-lg:text-3xl">
                 My expertise includes building responsive UIs, managing
                 databases, and ensuring robust application performance.
               </p>
-              <p className="text-3xl font-normal text-cente w-[50vw] mx-auto text-grey">
+              <p className="text-3xl font-normal text-cente w-[50vw] mx-auto text-grey max-sm:text-xl max-lg:text-2xl">
                 Passionate about tech innovation and problem-solving, I deliver
                 scalable and efficient web applications.
               </p>

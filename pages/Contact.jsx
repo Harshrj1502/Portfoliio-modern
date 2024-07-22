@@ -11,11 +11,11 @@ const Contact = () => {
       
         <div className="flex flex-col items-center justify-center h-screen "> 
         <FadeInUp>        
-        <p className="text-7xl font-normal text-center ">
+        <p className="text-7xl font-normal text-center max-sm:text-5xl max-lg:text-6xl">
         Let's work together.
         </p>
         
-        <p className="text-7xl font-normal text-grey text-center  ">
+        <p className="text-7xl font-normal text-grey text-center max-sm:text-5xl max-lg:text-6xl  ">
         Get in touch.
         </p>
         </FadeInUp>    
