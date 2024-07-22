@@ -19,7 +19,7 @@ const Work = () => {
             Explore my design services, from user interface and experience to
             prototyping and testing.
           </p>
-          <div className="flex gap-5 items-center ">
+          <div className="flex gap-5 items-center max-sm:gap-3 ">
             <h1 className="text-sm font-normal ">Expertise</h1>
             <Textcard text={"Web Design"} />
             <Textcard text={"Web Dev"} />
@@ -27,7 +27,7 @@ const Work = () => {
           </div>
         </div>
         <div className="flex justify-center ">
-          <div className="grid grid-cols-2 gap-5 max-sm:grid-cols-1  max-lg:grid-cols-1 max-lg-gap-10 max-xl:grid-cols-1">
+          <div className="grid grid-cols-2 gap-5 max-sm:grid-cols-1  max-lg:grid-cols-1 max-xl:grid-cols-1">
             <Projectcard />
             <Projectcard />
             <Projectcard />
