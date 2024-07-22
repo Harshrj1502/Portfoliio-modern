@@ -5,7 +5,7 @@ const Projectcard = () => {
   const [isHovered, setIsHovered] = useState(false);
   return (
     <section
-    className={`${cardclass} `}
+    className={`${cardclass} bg-[url('/image.png')] bg-no-repeat bg-cover bg-center`}
       onMouseEnter={() => {
         setCardclass("cardclass-hover");
         setIsHovered(true)
