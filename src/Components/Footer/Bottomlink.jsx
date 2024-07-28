@@ -2,7 +2,7 @@ import React from 'react'
 import Linksprofile from '../Links/Linksprofile'
 const Bottomlink = () => {
   return (
-    <div className="flex justify-between items-center px-5 py-10 w-[100vw]">
+    <div className="flex justify-between items-center px-5 py-10 w-[100vw] dark:bg-black dark:text-white">
         <h1 className="text-sm">©Harsh 2024</h1>
         <Linksprofile />
       </div>

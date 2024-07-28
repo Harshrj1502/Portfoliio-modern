@@ -15,17 +15,17 @@
 }
 @layer utilities {
   .navbar {
-    @apply text-sm font-normal  py-3 px-4 items-center m-1;
+    @apply text-sm font-normal  py-3 px-4 items-center m-1  
   }
   .navbar-clicked {
     @apply text-sm font-normal bg-primary rounded-full py-3  px-4 m-1 items-center;
   }
   .cardclass-hover {
     @apply h-[55vh] w-[45vw] bg-slate-500 rounded-3xl outline-none  cursor-pointer max-sm:w-[80vw] max-sm:h-[30vh]
-    max-lg:w-[80vw] max-lg:h-[30vh]
+    max-lg:w-[80vw] max-lg:h-[30vh];
   }
   .card-class {
-    @apply h-[55vh] w-[45vw] bg-slate-500 rounded-3xl outline-none max-sm:w-[80vw] max-sm:h-[30vh] max-lg:w-[80vw] max-lg:h-[30vh]
+    @apply h-[55vh] w-[45vw] bg-slate-500 rounded-3xl outline-none max-sm:w-[80vw] max-sm:h-[30vh] max-lg:w-[80vw] max-lg:h-[30vh];
   }
 }
 @layer components {

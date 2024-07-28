@@ -11,10 +11,12 @@ import { SiPostman } from "react-icons/si";
 import { SiMongodb } from "react-icons/si";
 import { FaGithub } from "react-icons/fa";
 import Textcard from "../../Components/Projectcard/Textcard";
+import Animation from "../../Animation/Animation";
 const Skills = () => {
   return (
-    <section id="skills" className="bg-white outline-none flex flex-col justify-center items-center py-10 w-[100vw]">
+    <section id="skills" className="bg-white outline-none flex flex-col justify-center items-center py-10 w-[100vw] dark:bg-black dark:text-white ">
       <Textcard text={"Skills"}/>
+      <Animation>
       <div className="grid grid-cols-4 gap-10 p-10 w-[100vw]">
         <FaHtml5 size={70} className="  "/>
         <IoLogoCss3 size={70} className="" />
@@ -27,8 +29,8 @@ const Skills = () => {
         <SiPostman size={70} className="" />
         <FaGithub size={70}className="" />
         <VscVscode size={70} className="" />
-      </div>
-    </section>
+      </div></Animation>
+    </section>    
   );
 };
 

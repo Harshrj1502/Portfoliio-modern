@@ -1,11 +1,12 @@
-import {React ,useEffect,useState}from "react";
-import { Outlet, Link } from "react-router-dom";
+import {React,useState}from "react";
+import {  Link } from "react-router-dom";
+import Darkmode from "../Darkmode";
 const Navbar = () => {
   const [navbarclass, setNavbarclass] = useState("navbar");
   return (
     <nav className="flex justify-center items-center ">
-      <div className="flex outline-none rounded-full bg-secondary w-fit fixed top-10">
-        <ul className="flex gap-1 cursor-pointer ">
+      <div className="navbarnew flex outline-none rounded-full w-fit fixed top-10 bg-secondary dark:bg-darkgrey dark:text-white ">
+        <ul className="flex gap-1 cursor-pointer items-center px-2">
           <Link to={"/"} className={navbarclass}>
             Home
           </Link>
@@ -15,8 +16,8 @@ const Navbar = () => {
           <Link to={"/contact"} className={navbarclass}>
             Contact
           </Link>
+          <Darkmode className={navbarclass}/>
         </ul>
-        <Outlet />
       </div>
     </nav>
   );
