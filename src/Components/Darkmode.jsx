@@ -11,7 +11,6 @@ function Darkmode() {
       document.documentElement.classList.add('dark');
     }
   };
-
   return (  
        <MdDarkMode  onClick={toggleDarkMode}  size={25}  />   
   );

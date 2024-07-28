@@ -1,11 +1,11 @@
-import React from 'react'
+import React from "react";
 
-const Textcard = ({text}) => {
+const Textcard = ({ text }) => {
   return (
-    <div className="text-sm font-normal bg-secondary rounded-full p-2 items-center w-fit dark:bg-darkgrey dark:text-white">
+    <div className="text-sm font-normal rounded-full p-3 items-center bg-secondary dark:bg-darkgrey dark:text-white">
       {text}
     </div>
-  )
-}
+  );
+};
 
-export default Textcard
+export default Textcard;

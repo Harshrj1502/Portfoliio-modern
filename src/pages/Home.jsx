@@ -10,7 +10,6 @@ const Work = () => {
   return (
     <section className="outline-none h-[100vh] bg-primary w-[100vw] dark:bg-black dark:text-white">
       <Navbar />
-
       <div className="h-[90vh] flex flex-col justify-center items-center gap-5 w-[100vw]  ">
         <Animation>
           <p className="text-7xl font-normal text-center max-sm:text-5xl  max-lg:text-6xl ">
@@ -40,7 +39,6 @@ const Work = () => {
           <Projectcard />
         </div>
       </div>
-
       <Footer />
       <Bottomlink />
     </section>

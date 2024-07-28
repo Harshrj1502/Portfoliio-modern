@@ -1,7 +1,7 @@
 import React from "react";
 const Links = () => {
   return (
-      <div className=" flex gap-2 max-sm:gap-1">
+      <div className=" flex gap-2 max-sm:gap-1" >
         <a href="https://x.com/HarshRj1502" target="_blank" className="text-sm">
           Twitter
         </a>

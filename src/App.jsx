@@ -2,9 +2,7 @@ import React from "react";
 import Home from "../src/pages/Home";
 import Contact from "../src/pages/Contact";
 import About from "../src/pages/About";
-import { motion } from "framer-motion";
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
-import Darkmode from "./Components/Darkmode";
 const App = () => {
   return (
     <div className="">

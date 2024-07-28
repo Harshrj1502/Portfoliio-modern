@@ -14,10 +14,10 @@ import Textcard from "../../Components/Projectcard/Textcard";
 import Animation from "../../Animation/Animation";
 const Skills = () => {
   return (
-    <section id="skills" className="bg-white outline-none flex flex-col justify-center items-center py-10 w-[100vw] dark:bg-black dark:text-white ">
+    <section id="skills" className="bg-white outline-none flex flex-col justify-center items-center py-10 dark:bg-black dark:text-white ">
       <Textcard text={"Skills"}/>
       <Animation>
-      <div className="grid grid-cols-4 gap-10 p-10 w-[100vw]">
+      <div className="grid grid-cols-4 gap-20 p-10 max-sm:gap-5 max-sm:p-5">
         <FaHtml5 size={70} className="  "/>
         <IoLogoCss3 size={70} className="" />
         <IoLogoJavascript size={70} className="" />

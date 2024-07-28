@@ -14,7 +14,6 @@ const Projectcard = () => {
         setCardclass("card-class");
         setIsHovered(false)
       }}
-      
     >
        {isHovered && <div className="text-base font-normal text-white flex justify-between p-7  ">Arial <BsArrowUpRightCircleFill  size={45} className="bg-black rounded-full text-white"/>
        </div>}
