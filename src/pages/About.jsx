@@ -32,11 +32,11 @@ const About = () => {
             </div></Animation>
             <Animation>
             <div className="flex flex-col gap-2">
-              <p className="text-4xl font-normal text-cente w-[50vw] mx-auto max-sm:text-2xl max-lg:text-3xl">
+              <p className="text-4xl font-normal  w-[50vw] mx-auto max-sm:text-2xl max-lg:text-3xl">
                 My expertise includes building responsive UIs, managing
                 databases, and ensuring robust application performance.
               </p>
-              <p className="text-3xl font-normal text-cente w-[50vw] mx-auto text-grey max-sm:text-xl max-lg:text-2xl">
+              <p className="text-3xl font-normal w-[50vw] mx-auto text-grey max-sm:text-xl max-lg:text-2xl">
                 Passionate about tech innovation and problem-solving, I deliver
                 scalable and efficient web applications.
               </p>
