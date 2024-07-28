@@ -16,8 +16,8 @@ const About = () => {
             <p className="text-7xl font-bold h-[80vh] justify-center items-center flex  max-lg:text-6xl max-sm:text-5xl max-sm:h-[65vh]  ">
               Hey 👋🏼 I'm Harsh
             </p>
-            <h1 className="font-light text-xl  ">Web and App Developer</h1>
-            <p className="text-base font-light text-grey dark:text-grey ">
+            <h1 className="font-light text-2xl  ">Web and App Developer</h1>
+            <p className="text-xl font-light max-sm:text-base text-grey dark:text-grey ">
               Welcome to my portfolio of captivating digital experiences.
               Explore my work and let's create something extraordinary together.
             </p>

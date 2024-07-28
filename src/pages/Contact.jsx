@@ -2,7 +2,7 @@ import React from "react";
 import Links from "../../src/Components/Links/Linksprofile";
 import Navbar from "../../src/Components/Navbar/Navbar";
 import "animate.css/animate.min.css";
-import { motion } from "framer-motion";
+import { Link } from "react-router-dom";
 import Animation from "../Animation/Animation";
 const Contact = () => {
   return (
@@ -18,8 +18,8 @@ const Contact = () => {
           </p>
         </Animation>
         <Animation>
-          <p className="text-7xl font-normal text-grey text-center max-sm:text-5xl max-lg:text-6xl py-2 ">
-            Get in touch.
+          <p className="text-7xl font-normal text-grey text-center max-sm:text-5xl max-lg:text-6xl py-2 hover:opacity-50 ">
+          <Link to={"/contact"}>Get in touch.</Link>
           </p>
         </Animation>
       </div>

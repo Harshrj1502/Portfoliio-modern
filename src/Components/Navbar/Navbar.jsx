@@ -5,7 +5,7 @@ const Navbar = () => {
   const [navbarclass, setNavbarclass] = useState("navbar");
   return (
     <nav className="flex justify-center items-center ">
-      <div className="navbarnew flex outline-none rounded-full w-fit fixed top-10 bg-secondary dark:bg-darkgrey dark:text-white ">
+      <div className=" flex outline-none rounded-full fixed top-10 bg-secondary dark:bg-darkgrey dark:text-white ">
         <ul className="flex gap-1 cursor-pointer items-center px-2">
           <Link to={"/"} className={navbarclass}>
             Home

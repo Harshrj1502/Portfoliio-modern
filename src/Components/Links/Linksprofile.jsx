@@ -1,7 +1,7 @@
 import React from "react";
 const Links = () => {
   return (
-      <div className=" flex gap-2 max-sm:gap-1" >
+      <div className=" flex gap-2 font-light max-sm:gap-1" >
         <a href="https://x.com/HarshRj1502" target="_blank" className="text-sm">
           Twitter
         </a>
@@ -10,11 +10,6 @@ const Links = () => {
           target="_blank"
           className="text-sm"
         >Instagram</a>
-        <a
-          href="https://www.threads.net/@justc.10"
-          target="_blank"
-          className="text-sm"
-        >Threads</a>
         <a
           href="https://github.com/Harshrj1502"
           target="_blank"
@@ -25,6 +20,7 @@ const Links = () => {
           target="_blank"
           className="text-sm"
         >LinkedIn</a>
+        <a href=""></a>
       </div>
   );
 };
