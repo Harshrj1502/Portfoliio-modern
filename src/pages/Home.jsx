@@ -21,8 +21,8 @@ const Work = () => {
           </p>
         </Animation>
         <Animation>
-          <div className="flex gap-5 items-center max-sm:gap-3 ">
-            <h1 className="text-sm font-normal ">Expertise</h1>
+          <div className="flex gap-5 items-center max-sm:gap-3 max-sm:grid max-sm:grid-cols-2 ">
+            <h1 className="text-sm font-normal max-sm:text-center max-sm:text-base ">Expertise</h1>
             <Textcard text={"Web Design"} />
             <Textcard text={"Web Dev"} />
             <Textcard text={"App Dev"} />

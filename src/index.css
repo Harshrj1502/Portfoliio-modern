@@ -15,7 +15,7 @@
 }
 @layer utilities {
   .navbar {
-    @apply text-sm font-light  py-2 max-sm:py-3 px-4 items-center m-1;
+    @apply text-sm font-light  py-2 max-sm:py-3 px-4 items-center m-1
   }
   .navbar-clicked {
     @apply text-sm font-light py-2  max-sm:py-3 px-4 items-center m-1 rounded-full bg-primary;
