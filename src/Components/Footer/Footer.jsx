@@ -15,9 +15,9 @@ const Footer = () => {
       </motion.p>
       <motion.p
         whileInView={{ opacity: 1, y: 0 }}
-        initial={{ opacity: 0, y: 60 }}
-        animate={{ y: 60 }}
-        transition={{ duration: 1, ease: "easeOut" }}
+        initial={{ opacity: 0, y: 50 }}
+        animate={{ y: 50 }}
+        transition={{ duration: 1, ease: "easeOut",delay:0.2 }}
         className="text-4xl font-normal text-grey text-center cursor-pointer hover:opacity-50"
       >
         <Link to={"/contact"}>Get in touch.</Link>

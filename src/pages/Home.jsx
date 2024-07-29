@@ -22,9 +22,9 @@ const Work = () => {
         </motion.p>
         <motion.p
           whileInView={{ opacity: 1, y: 0 }}
-          initial={{ opacity: 0, y: 60 }}
-          animate={{ y: 60 }}
-          transition={{ duration: 1, ease: "easeOut" }}
+          initial={{ opacity: 0, y: 50 }}
+          animate={{ y: 50 }}
+          transition={{ duration: 1, ease: "easeOut",delay:0.2 }}
           className="text-2xl font-normal text-center text-grey max-lg:text-xl max-sm:text-lg  py-4 "
         >
           Explore my design services, from user interface and experience to
@@ -32,9 +32,9 @@ const Work = () => {
         </motion.p>
         <motion.div
           whileInView={{ opacity: 1, y: 0 }}
-          initial={{ opacity: 0, y: 70 }}
-          animate={{ y: 70 }}
-          transition={{ duration: 1, ease: "easeOut" }}
+          initial={{ opacity: 0, y: 50 }}
+          animate={{ y: 50 }}
+          transition={{ duration: 1, ease: "easeOut",delay:0.3 }}
           className="flex gap-5 items-center max-sm:gap-3 max-sm:grid max-sm:grid-cols-2 "
         >
           <h1 className="text-sm font-normal max-sm:text-center max-sm:text-base ">
