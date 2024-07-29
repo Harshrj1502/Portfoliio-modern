@@ -11,13 +11,16 @@ import { SiPostman } from "react-icons/si";
 import { SiMongodb } from "react-icons/si";
 import { FaGithub } from "react-icons/fa";
 import Textcard from "../../Components/Projectcard/Textcard";
-import Animation from "../../Animation/Animation";
+import {motion} from "framer-motion"
 const Skills = () => {
   return (
     <section id="skills" className="bg-white outline-none flex flex-col justify-center items-center py-10 dark:bg-black dark:text-white ">
       <Textcard text={"Skills"}/>
-      <Animation>
-      <div className="grid grid-cols-4 gap-20 p-10 max-sm:gap-5 max-sm:px-5 max-sm:py-10">
+      <motion.div
+            whileInView={{ opacity: 1, y: 0 }}
+            initial={{ opacity: 0, y: 50 }}
+            animate={{ y: 50 }}
+            transition={{ duration: 1, ease: "easeOut" }} className="grid grid-cols-4 gap-20 p-10 max-sm:gap-5 max-sm:px-5 max-sm:py-10">
         <FaHtml5 size={70} className="  "/>
         <IoLogoCss3 size={70} className="" />
         <IoLogoJavascript size={70} className="" />
@@ -29,7 +32,7 @@ const Skills = () => {
         <SiPostman size={70} className="" />
         <FaGithub size={70}className="" />
         <VscVscode size={70} className="" />
-      </div></Animation>
+      </motion.div>
     </section>    
   );
 };
