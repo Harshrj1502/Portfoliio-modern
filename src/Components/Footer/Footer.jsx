@@ -18,9 +18,9 @@ const Footer = () => {
         initial={{ opacity: 0, y: 50 }}
         animate={{ y: 50 }}
         transition={{ duration: 1, ease: "easeOut",delay:0.2 }}
-        className="text-4xl font-normal text-grey text-center cursor-pointer hover:opacity-50"
+        className="text-4xl font-normal text-grey text-center cursor-pointer"
       >
-        <Link to={"/contact"}>Get in touch.</Link>
+        <Link to={"/contact"} className="hover:opacity-70">Get in touch.</Link>
       </motion.p>
     </div>
   );

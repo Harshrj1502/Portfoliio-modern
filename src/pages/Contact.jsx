@@ -26,13 +26,13 @@ const Contact = () => {
           initial={{ opacity: 0, y: 50 }}
           animate={{ y: 50 }}
           transition={{ duration: 1, ease: "easeOut",delay:0.2 }}
-          className="text-7xl font-normal text-grey text-center max-sm:text-5xl max-lg:text-6xl py-2 hover:opacity-50 "
+          className="text-7xl font-normal text-grey text-center max-sm:text-5xl max-lg:text-6xl py-2 "
         >
           <Link to={"/contact"}>Get in touch.</Link>
         </motion.p>
       </div>
       <div className="flex justify-between items-center py-10 px-5 fixed bottom-0 w-[100vw] dark:bg-black dark:text-white">
-        <h1 className="text-sm">©Harsh 2024</h1>
+        <h1 className="text-sm">© Harsh 2024</h1>
         <Links />
       </div>
     </section>
