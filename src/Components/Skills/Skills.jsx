@@ -14,7 +14,7 @@ import Textcard from "../../Components/Projectcard/Textcard";
 import {motion} from "framer-motion"
 const Skills = () => {
   return (
-    <section id="skills" className="bg-white outline-none flex flex-col justify-center items-center py-10 dark:bg-black dark:text-white ">
+    <section id="skills" className="bg-white outline-none flex flex-col justify-center items-center py-10 dark:bg-black dark:text-white  ">
       <Textcard text={"Skills"}/>
       <motion.div
             whileInView={{ opacity: 1, y: 0 }}
