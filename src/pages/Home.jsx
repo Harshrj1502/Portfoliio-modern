@@ -10,7 +10,7 @@ const Work = () => {
   return (
     <section className="outline-none h-[100vh] bg-primary w-[100vw] dark:bg-black dark:text-white">
       <Navbar />
-      <div className="h-[90vh] flex flex-col justify-center items-center gap-5 w-[100vw]  ">
+      <div className="h-[90vh] flex flex-col justify-center items-center gap-5 w-[100vw] max-sm:my-5 ">
         <motion.p
           whileInView={{ opacity: 1, y: 0 }}
           initial={{ opacity: 0, y: 50 }}
