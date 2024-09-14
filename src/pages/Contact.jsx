@@ -1,7 +1,6 @@
 import React from "react";
 import Links from "../../src/Components/Links/Linksprofile";
 import Navbar from "../../src/Components/Navbar/Navbar";
-import "animate.css/animate.min.css";
 import { Link } from "react-router-dom";
 import { motion } from "framer-motion";
 import CV from "../Components/CV";

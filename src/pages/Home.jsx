@@ -4,7 +4,6 @@ import Textcard from "../../src/Components/Projectcard/Textcard";
 import Navbar from "../../src/Components/Navbar/Navbar";
 import Footer from "../../src/Components/Footer/Footer";
 import Bottomlink from "../../src/Components/Footer/Bottomlink";
-import "animate.css/animate.min.css";
 import { motion } from "framer-motion";
 const Work = () => {
   return (
