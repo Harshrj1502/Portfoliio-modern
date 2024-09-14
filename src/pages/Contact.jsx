@@ -4,6 +4,7 @@ import Navbar from "../../src/Components/Navbar/Navbar";
 import "animate.css/animate.min.css";
 import { Link } from "react-router-dom";
 import { motion } from "framer-motion";
+import CV from "../Components/CV";
 const Contact = () => {
   return (
     <section
@@ -25,11 +26,12 @@ const Contact = () => {
           whileInView={{ opacity: 1, y: 0 }}
           initial={{ opacity: 0, y: 50 }}
           animate={{ y: 50 }}
-          transition={{ duration: 1, ease: "easeOut",delay:0.2 }}
+          transition={{ duration: 1, ease: "easeOut", delay: 0.2 }}
           className="text-7xl font-normal text-grey text-center max-sm:text-5xl max-lg:text-6xl py-2 "
         >
           <Link to={"/contact"}>Get in touch.</Link>
         </motion.p>
+        <CV name={"px-5 py-2 my-3"} text={"Download"}/>
       </div>
       <div className="flex justify-between items-center py-10 px-5 fixed bottom-0 w-[100vw] dark:bg-black dark:text-white">
         <h1 className="text-sm">© Harsh 2024</h1>

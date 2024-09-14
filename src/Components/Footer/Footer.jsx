@@ -17,11 +17,14 @@ const Footer = () => {
         whileInView={{ opacity: 1, y: 0 }}
         initial={{ opacity: 0, y: 50 }}
         animate={{ y: 50 }}
-        transition={{ duration: 1, ease: "easeOut",delay:0.2 }}
+        transition={{ duration: 1, ease: "easeOut", delay: 0.2 }}
         className="text-4xl font-normal text-grey text-center cursor-pointer"
       >
-        <Link to={"/contact"} className="hover:opacity-70">Get in touch.</Link>
+        <Link to={"/contact"} className="hover:opacity-70">
+          Get in touch.
+        </Link>
       </motion.p>
+      
     </div>
   );
 };

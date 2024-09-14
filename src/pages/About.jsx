@@ -34,7 +34,7 @@ const About = () => {
             whileInView={{ opacity: 1, y: 0 }}
             initial={{ opacity: 0, y: 50 }}
             animate={{ y: 50 }}
-            transition={{ duration: 1, ease: "easeOut",delay:0.2 }}
+            transition={{ duration: 1, ease: "easeOut", delay: 0.2 }}
             className="text-xl font-light max-sm:text-base text-grey dark:text-grey "
           >
             Welcome to my portfolio of captivating digital experiences. Explore
@@ -63,7 +63,7 @@ const About = () => {
               whileInView={{ opacity: 1, y: 0 }}
               initial={{ opacity: 0, y: 50 }}
               animate={{ y: 50 }}
-              transition={{ duration: 1, ease: "easeOut",delay:0.2 }}
+              transition={{ duration: 1, ease: "easeOut", delay: 0.2 }}
               className="text-3xl font-normal w-[50vw] mx-auto text-grey max-sm:text-xl max-lg:text-2xl"
             >
               Passionate about tech innovation and problem-solving, I deliver

@@ -1,12 +1,19 @@
 @import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
-
+@import url("https://fonts.googleapis.com/css2?family=SUSE:wght@100..800&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Handjet:wght@100..900&family=SUSE:wght@100..800&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=DotGothic16&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=DotGothic16&family=Jaldi:wght@400;700&display=swap");
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
 
 @layer base {
   html {
-    font-family: "Poppins ", sans-serif;
+    /* font-family: "Poppins ", sans-serif; */
+    font-family: "SUSE", sans-serif;
+    /* font-family: "Handjet", sans-serif; */
+    /* font-family: "DotGothic16", sans-serif; */
+    /* font-family: "Jaldi", sans-serif; */
   }
   body {
     padding: 0;
@@ -15,10 +22,10 @@
 }
 @layer utilities {
   .navbar {
-    @apply text-sm font-light  py-2 max-sm:py-3 px-4 items-center m-1
+    @apply text-sm font-light  py-2 max-sm:py-3 px-2 items-center m-1;
   }
   .navbar-clicked {
-    @apply text-sm font-light py-2  max-sm:py-3 px-4 items-center m-1 rounded-full bg-primary;
+    @apply text-sm font-light py-2  max-sm:py-3 px-2 items-center m-1 rounded-full bg-primary;
   }
   .cardclass-hover {
     @apply h-[55vh] w-[45vw] bg-slate-500 rounded-3xl outline-none  cursor-pointer max-sm:w-[80vw] max-sm:h-[30vh]
